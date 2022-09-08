@@ -17,6 +17,7 @@ export default class Calculator extends Component {
   }
 
   render() {
+    const {total, operation, next} = this.state;
     return (
       <div>
         <div className="appCalculator">
