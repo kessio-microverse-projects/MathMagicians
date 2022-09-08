@@ -1,5 +1,5 @@
 import DisplayValues from './DisplayValues';
-import calculate from '../logic/calculate'; /* eslint-disable */
+import calculate from '../logic/calculate'; /* eslint-disable-line */
 import { useState } from 'react';
 
 import React from 'react'
