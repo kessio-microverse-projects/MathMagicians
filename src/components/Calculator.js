@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Calculate from '../logic/Calculate';
+import calculate from '../logic/calculate';
+import DisplayValues from './DisplayValues';
 
 export default class Calculator extends Component {
   constructor(props) {
@@ -7,22 +8,25 @@ export default class Calculator extends Component {
     this.state = {
       total: 0,
       operation: '',
-      next: ''
+      next: '',
     };
   }
 
   clickOperations = (event) => {
-    event.preventDefault();
-    this.setState((obj) => Calculate(obj,event.target.value))
+    this.setState((obj) => calculate(obj, event.target.value));
   }
 
   render() {
-    const {total, operation, next} = this.state;
+    const { total, operation, next } = this.state;
     return (
       <div>
         <div className="appCalculator">
           <div className="grid-container">
-            <div className="screen-input"><span className="text-display">0</span></div>
+            <div className="screen-input">
+              <span className="text-display">
+                <DisplayValues total={total} operation={operation} next={next} />
+              </span>
+            </div>
           </div>
           <div className="grid-container">
             <input type="button" onClick={this.clickOperations} value="AC" className="same-size-btn" />
@@ -34,7 +38,7 @@ export default class Calculator extends Component {
             <input type="button" onClick={this.clickOperations} value="7" className="same-size-btn" />
             <input type="button" onClick={this.clickOperations} value="8" className="same-size-btn" />
             <input type="button" onClick={this.clickOperations} value="9" className="same-size-btn" />
-            <input type="button" onClick={this.clickOperations} className="same-size-btn orange" value="X" />
+            <input type="button" onClick={this.clickOperations} className="same-size-btn orange" value="x" />
           </div>
           <div className="grid-container">
             <input type="button" onClick={this.clickOperations} value="4" className="same-size-btn" />
