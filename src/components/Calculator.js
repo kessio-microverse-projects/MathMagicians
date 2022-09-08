@@ -11,7 +11,7 @@ export default class Calculator extends Component {
       <div>
         <div className="appCalculator">
           <div className="grid-container">
-            <input type="text" className="screen-input" />
+            <div className="screen-input"><span className="text-display">0</span></div>
           </div>
           <div className="grid-container">
             <input type="button" value="AC" className="same-size-btn" />

@@ -21,16 +21,31 @@
 }
 
 .screen-input {
+  position: relative;
   width: 320px;
   background-color: #918b8b;
   border: 1px solid rgb(161, 161, 161);
   height: 60px;
+  color: #ffffff;
+  font-size: 30px;
+  float: right;
+}
+
+.text-display {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .same-size-btn {
   background-color: #e0e0e0;
   border: 1px solid rgb(161, 161, 161);
   height: 40px;
+}
+
+.same-size-btn:hover{
+  background-color: #d5cfcf;
+
 }
 
 .zero {
