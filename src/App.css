@@ -26,7 +26,7 @@
   background-color: #918b8b;
   border: 1px solid rgb(161, 161, 161);
   height: 60px;
-  color: #ffffff;
+  color: #fff;
   font-size: 30px;
   float: right;
 }
@@ -43,9 +43,8 @@
   height: 40px;
 }
 
-.same-size-btn:hover{
+.same-size-btn:hover {
   background-color: #d5cfcf;
-
 }
 
 .zero {
