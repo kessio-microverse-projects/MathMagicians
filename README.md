@@ -3,7 +3,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Built With
+
+- HTML
+- CSS
+- react
+
+## Getting Started
 
 In the project directory, you can run:
 
@@ -40,4 +46,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+### What you need
+- Web browser
+- Code editor
+
+## Authors
+
+👤 **Sharon Kessio**
+
+- GitHub: [sharon kessio](https://github.com/kessio)
+- Twitter: [@kessio_sharon](https://twitter.com/kessio_sharon)
+- LinkedIn: [sharon kessio](https://www.linkedin.com/in/sharon-kessio-172220b5/)
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Masuduzzaman811/Kanban-board/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
 
