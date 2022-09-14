@@ -1,12 +1,18 @@
-import './App.css';
+/* eslint-disable react/display-name  */
+import React, { Component } from 'react';
 import Calculator from './components/Calculator';
 
-function App() {
-  return (
-    <div className="App">
-      <Calculator />
-    </div>
-  );
-}
+export default class extends Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
 
-export default App;
+  render() {
+    return (
+      <div>
+        <Calculator />
+      </div>
+    );
+  }
+}
