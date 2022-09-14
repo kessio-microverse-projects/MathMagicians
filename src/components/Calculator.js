@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import DisplayValues from './DisplayValues';
-import calculate from '../logic/calculate'; /* eslint-disable-line */
+import calculate from '../logic/Calculate'; /* eslint-disable-line */
 import './calculator.css';
 
 const Calculator = () => {
