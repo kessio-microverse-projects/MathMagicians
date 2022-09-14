@@ -1,7 +1,6 @@
 # Math Magicians
 > This project is used to test the use of classes, hooks, events modern ES6 javaScript and seting up linters in a react project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Built With
 
