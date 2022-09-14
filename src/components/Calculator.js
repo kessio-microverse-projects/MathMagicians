@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import DisplayValues from './DisplayValues';
-import calculate from '../logic/calculate'; // eslint-disable-line
+import calculate from '../logic/calculate'; /* eslint-disable-line */
 import './calculator.css';
 
 export default class Calculator extends Component {
