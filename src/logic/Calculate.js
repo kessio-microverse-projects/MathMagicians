@@ -1,4 +1,5 @@
-import operate from './Operate'; /* eslint-disable-line */
+/* eslint-disable */
+import operate from './Operate'; 
 
 function isNumber(item) {
   return !!item.match(/[0-9]+/);
