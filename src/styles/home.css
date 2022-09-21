@@ -1,11 +1,10 @@
 .homeContent {
-    margin: 15px;
+  margin: 15px;
 }
 
 .quoteSection {
-    text-align: center;
-    word-wrap: break-word; 
-    margin: 12%;
-    font-size: 30px;
-
+  text-align: center;
+  word-wrap: break-word;
+  margin: 12%;
+  font-size: 30px;
 }
