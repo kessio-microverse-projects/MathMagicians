@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/home.css';
+import style from './Home.module.css';
 
 export default function Home() {
   return (
-    <div className="sectionContainer">
-      <div className="sectiontitle">Welcome to Our Page</div>
-      <div className="homeContent">
+    <div className={style.sectionContainer}>
+      <div className={style.sectiontitle}>Welcome to Our Page</div>
+      <div className={style.homeContent}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Aliquam mollis pharetra magna, tempor auctor est vulputate sed.
         Maecenas dolor dolor, mattis et erat at, tempus egestas eros.
@@ -26,7 +26,7 @@ export default function Home() {
         convallis nisl. Aenean mattis velit eget elit egestas, id cursus mi rutrum.
       </div>
 
-      <div className="homeContent">
+      <div className={style.homeContent}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Aliquam mollis pharetra magna, tempor auctor est vulputate sed.
         Maecenas dolor dolor, mattis et erat at, tempus egestas eros.
