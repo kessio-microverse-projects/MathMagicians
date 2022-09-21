@@ -6,20 +6,25 @@ import {
 import Calculator from './Calculator';
 import Quote from './Quote';
 import Home from './Home';
+import '../styles/navbar.css';
 
-export default function Navbar() {
-  return (
-    <Router>
-      <Link to="/">Home</Link>
-      <Link to="/quote">Quote</Link>
-      <Link to="/calculator">Calculator</Link>
+const Navbar = () => (
+  <Router>
+    <nav className="nav">
+      <Link className="logo" to="/">Math Magicians</Link>
+      <div className="navItems">
+        <Link className="linkItem" to="/">Home</Link>
+        <Link className="linkItem border" to="/quote">Quote</Link>
+        <Link className="linkItem border" to="/calculator">Calculator</Link>
+      </div>
+    </nav>
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/quote" element={<Quote />} />
-        <Route path="/calculator" element={<Calculator />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/quote" element={<Quote />} />
+      <Route path="/calculator" element={<Calculator />} />
+    </Routes>
+  </Router>
 
-  );
-}
+);
+export default Navbar;

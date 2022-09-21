@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import DisplayValues from './DisplayValues';
 import calculate from '../logic/Calculate'; /* eslint-disable-line */
-import './calculator.css';
+import '../styles/calculator.css';
 
 const Calculator = () => {
   const [obj, setCalculations] = useState({ total: null, next: null, operation: null });
@@ -12,6 +12,7 @@ const Calculator = () => {
 
   return (
     <div>
+      <div className="sectiontitle">Let us do some Maths</div>
       <div className="appCalculator">
         <div className="grid-container">
           <div className="screen-input">
