@@ -22,33 +22,33 @@ const Calculator = () => {
           </div>
         </div>
         <div className="grid-container">
-          <input type="button" onClick={clickOperations} value="AC" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="+/-" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="%" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="÷" className="same-size-btn orange" />
+          <input type="button" data-testid="ac" onClick={clickOperations} value="AC" className="same-size-btn" />
+          <input type="button" data-testid="plus-minus" onClick={clickOperations} value="+/-" className="same-size-btn" />
+          <input type="button" data-testid="percent" onClick={clickOperations} value="%" className="same-size-btn" />
+          <input type="button" data-testid="divide" onClick={clickOperations} value="÷" className="same-size-btn orange" />
         </div>
         <div className="grid-container">
-          <input type="button" onClick={clickOperations} value="7" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="8" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="9" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} className="same-size-btn orange" value="x" />
+          <input type="button" data-testid="seven" onClick={clickOperations} value="7" className="same-size-btn" />
+          <input type="button" data-testid="eight" onClick={clickOperations} value="8" className="same-size-btn" />
+          <input type="button" data-testid="nine" onClick={clickOperations} value="9" className="same-size-btn" />
+          <input type="button" data-testid="multiply" onClick={clickOperations} className="same-size-btn orange" value="x" />
         </div>
         <div className="grid-container">
-          <input type="button" onClick={clickOperations} value="4" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="5" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="6" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="-" className="same-size-btn orange" />
+          <input type="button" data-testid="four" onClick={clickOperations} value="4" className="same-size-btn" />
+          <input type="button" data-testid="five" onClick={clickOperations} value="5" className="same-size-btn" />
+          <input type="button" data-testid="six" onClick={clickOperations} value="6" className="same-size-btn" />
+          <input type="button" data-testid="minus" onClick={clickOperations} value="-" className="same-size-btn orange" />
         </div>
         <div className="grid-container">
-          <input type="button" onClick={clickOperations} value="1" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="2" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="3" className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="+" className="same-size-btn orange" />
+          <input type="button" data-testid="one" onClick={clickOperations} value="1" className="same-size-btn" />
+          <input type="button" data-testid="two" onClick={clickOperations} value="2" className="same-size-btn" />
+          <input type="button" data-testid="three" onClick={clickOperations} value="3" className="same-size-btn" />
+          <input type="button" data-testid="plus" onClick={clickOperations} value="+" className="same-size-btn orange" />
         </div>
         <div className="grid-container">
-          <input type="button" onClick={clickOperations} className="zero" value="0" />
-          <input type="button" onClick={clickOperations} value="." className="same-size-btn" />
-          <input type="button" onClick={clickOperations} value="=" className="same-size-btn orange" />
+          <input type="button" data-testid="zero" onClick={clickOperations} className="zero" value="0" />
+          <input type="button" data-testid="decimal" onClick={clickOperations} value="." className="same-size-btn" />
+          <input type="button" data-testid="equals" onClick={clickOperations} value="=" className="same-size-btn orange" />
         </div>
       </div>
     </div>

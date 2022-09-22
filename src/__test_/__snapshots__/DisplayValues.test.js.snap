@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches the snapshot 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`snapshot test for DisplayValues Component Matches the snapshot 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`snapshot test for DisplayValues Component Matches the snapshot: Display 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`snapshot test for DisplayValues Component Matches the snapshot: DisplayVlues 1`] = `
+<div>
+  0
+</div>
+`;

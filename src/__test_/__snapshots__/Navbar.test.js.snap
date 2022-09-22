@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test for Home Component Matches the snapshot: Navbar 1`] = `
+Array [
+  <nav
+    className="nav"
+  >
+    <a
+      className="logo"
+      href="/"
+      onClick={[Function]}
+    >
+      Math Magicians
+    </a>
+    <div
+      className="navItems"
+    >
+      <a
+        className="linkItem"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        className="linkItem border"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+      <a
+        className="linkItem border"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </div>
+  </nav>,
+  <div
+    className="sectionContainer"
+  >
+    <div
+      className="sectiontitle"
+    >
+      Welcome to Our Page
+    </div>
+    <div
+      className="homeContent"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis pharetra magna, tempor auctor est vulputate sed. Maecenas dolor dolor, mattis et erat at, tempus egestas eros. Etiam in facilisis lorem, ut maximus tellus. Praesent blandit massa sit amet nisl bibendum hendrerit. Maecenas in nibh ac tortor elementum tristique. Cras efficitur gravida vestibulum. Fusce pulvinar molestie tortor, in vehicula neque iaculis eget. Suspendisse enim turpis, fermentum in tincidunt sed, malesuada ut est. Cras varius euismod velit, et maximus metus. Donec tincidunt nec lectus eget elementum. Praesent fermentum fermentum nunc, eget blandit ante tincidunt vitae. Praesent nec lacus et orci ornare dignissim. Aenean sed sem dapibus, euismod massa vitae, dapibus nisi. Praesent pulvinar, felis a varius vulputate, eros elit aliquam quam, eu euismod metus mi quis est. Proin hendrerit metus malesuada, condimentum purus vitae, convallis nisl. Aenean mattis velit eget elit egestas, id cursus mi rutrum.
+    </div>
+    <div
+      className="homeContent"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis pharetra magna, tempor auctor est vulputate sed. Maecenas dolor dolor, mattis et erat at, tempus egestas eros. Etiam in facilisis lorem, ut maximus tellus. Praesent blandit massa sit amet nisl bibendum hendrerit. Maecenas in nibh ac tortor elementum tristique. Cras efficitur gravida vestibulum.
+    </div>
+  </div>,
+]
+`;
+
+exports[`snapshot test for Navbar Component Matches the snapshot: Navbar 1`] = `
+Array [
+  <nav
+    className="nav"
+  >
+    <a
+      className="logo"
+      href="/"
+      onClick={[Function]}
+    >
+      Math Magicians
+    </a>
+    <div
+      className="navItems"
+    >
+      <a
+        className="linkItem"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        className="linkItem border"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+      <a
+        className="linkItem border"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </div>
+  </nav>,
+  <div
+    className="sectionContainer"
+  >
+    <div
+      className="sectiontitle"
+    >
+      Welcome to Our Page
+    </div>
+    <div
+      className="homeContent"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis pharetra magna, tempor auctor est vulputate sed. Maecenas dolor dolor, mattis et erat at, tempus egestas eros. Etiam in facilisis lorem, ut maximus tellus. Praesent blandit massa sit amet nisl bibendum hendrerit. Maecenas in nibh ac tortor elementum tristique. Cras efficitur gravida vestibulum. Fusce pulvinar molestie tortor, in vehicula neque iaculis eget. Suspendisse enim turpis, fermentum in tincidunt sed, malesuada ut est. Cras varius euismod velit, et maximus metus. Donec tincidunt nec lectus eget elementum. Praesent fermentum fermentum nunc, eget blandit ante tincidunt vitae. Praesent nec lacus et orci ornare dignissim. Aenean sed sem dapibus, euismod massa vitae, dapibus nisi. Praesent pulvinar, felis a varius vulputate, eros elit aliquam quam, eu euismod metus mi quis est. Proin hendrerit metus malesuada, condimentum purus vitae, convallis nisl. Aenean mattis velit eget elit egestas, id cursus mi rutrum.
+    </div>
+    <div
+      className="homeContent"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis pharetra magna, tempor auctor est vulputate sed. Maecenas dolor dolor, mattis et erat at, tempus egestas eros. Etiam in facilisis lorem, ut maximus tellus. Praesent blandit massa sit amet nisl bibendum hendrerit. Maecenas in nibh ac tortor elementum tristique. Cras efficitur gravida vestibulum.
+    </div>
+  </div>,
+]
+`;
