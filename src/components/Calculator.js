@@ -23,7 +23,7 @@ const Calculator = () => {
         </div>
         <div className="grid-container">
           <input type="button" data-testid="ac" onClick={clickOperations} value="AC" className="same-size-btn" />
-          <input type="button" data-testid="plus" onClick={clickOperations} value="+/-" className="same-size-btn" />
+          <input type="button" data-testid="plus-minus" onClick={clickOperations} value="+/-" className="same-size-btn" />
           <input type="button" data-testid="percent" onClick={clickOperations} value="%" className="same-size-btn" />
           <input type="button" data-testid="divide" onClick={clickOperations} value="÷" className="same-size-btn orange" />
         </div>

@@ -35,7 +35,7 @@ exports[`snapshot test for Calculator Component Matches the snapshot 1`] = `
       />
       <input
         className="same-size-btn"
-        data-testid="plus"
+        data-testid="plus-minus"
         onClick={[Function]}
         type="button"
         value="+/-"

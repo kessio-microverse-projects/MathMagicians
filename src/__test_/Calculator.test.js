@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
@@ -26,5 +27,8 @@ describe('simulate user event', () => {
     expect(userEvent.click(screen.getByTestId('minus'))).toHaveBeenCalled;
   });
 
-
+  test('click plus', () => {
+    render(<Calculator />);
+    expect(userEvent.click(screen.getByTestId('plus'))).toHaveBeenCalled;
+  });
 });
