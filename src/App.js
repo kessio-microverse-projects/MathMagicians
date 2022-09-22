@@ -1,18 +1,11 @@
 /* eslint-disable react/display-name  */
-import React, { Component } from 'react';
-import Calculator from './components/Calculator';
+import React from 'react';
+import Navbar from './components/Navbar';
 
-export default class extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div>
-        <Calculator />
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }

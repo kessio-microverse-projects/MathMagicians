@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.navItems {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.linkItem {
+  text-decoration: underline;
+  list-style: none;
+  padding: 0 30px 0 0;
+  color: blue;
+}
+
+.linkItem.border {
+  border-left: 1px blue solid;
+  padding-left: 6px;
+}
+
+.sectiontitle {
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 40px;
+  margin-top: 40px;
+}
